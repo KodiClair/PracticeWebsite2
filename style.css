@@ -5,12 +5,67 @@ body {
 
 .header {
     background-color: #1F2937;
-    height: 100px
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
 
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+#image {
+    width: 400px;
+    height: 250px;
+    line-height: 200px;
+    text-align: center;
+    background-color: gray;
+    
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    width: 150px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
 }
 
 .quote {
@@ -19,6 +74,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
 }
 
 #qbody {
@@ -29,6 +87,9 @@ body {
 
 .link {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 button {
@@ -37,10 +98,14 @@ button {
 }
 
 .container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 30%;
+    background-color: #3882F6;
+    width: 70%;
+    border-radius: 5px;
 }
 
 .footer {
